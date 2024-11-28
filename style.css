@@ -1,0 +1,104 @@
+/*1*/
+body{
+  font-family:'Georgia';
+  background-color: #fdf5e6;
+  text-align: center;
+  color: rgb(128,0,0);
+  
+}
+/*2*/
+header{
+background-color: #d4af37;
+color: white;  
+padding: 20px;
+text-shadow: 2px 2px #d4af37 ;
+}
+
+header h1{
+  font-size: 2.5em
+}
+
+/*3*/
+section{
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 600px;
+  background-color: #fffaf0;
+  border: 1px solid #d4af37;
+/*arredonda as bordas*/  
+  border-radius:5px;
+}
+/*4*/
+section h2{
+  color: #8b4513;
+}
+/*5*/
+section p, ul{
+ text-align: justify;
+ color: #5d3b09;
+}
+/*6*/
+ul{
+  list-style-type: square;
+  text-align: left;
+}
+/*7*/
+footer{
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #5d3b09;
+  color: white;
+  font-size: 0.9em
+    
+}
+/*8*/
+a{
+  color: #d4af37;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+/* Estilização da tabela*/
+table{
+  width: 80%;
+  margin: 0 auto;
+  border-collapse: collapse; 
+  background-color: #fff;
+  border: 1px solid #d4af37;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  
+}
+thead {
+  background-color: #d4af37; 
+  color: white;
+}
+thead th {
+  padding: 15px;
+  font-size: 1.1em;
+  border: 1px solid #b8860b;
+  /*text-transform: uppercase;*/
+}
+/* Estilo para as células da tabela */
+tbody td {
+  padding: 12px;
+  border: 1px solid #d4af37;
+  text-align: center;
+  font-size: 1em;
+}
+
+/* Alternar cores para linhas */
+tbody tr:nth-child(odd) {
+  background-color: #fffaf0; /* Tom claro */
+}
+
+tbody tr:nth-child(even) {
+  background-color: #fdf5e6; /* Outra variação */
+}
+
+/* Alteração ao passar o mouse sobre a linha */
+tbody tr:hover {
+  background-color: #f4e2c7;
+  cursor: pointer;
+}
